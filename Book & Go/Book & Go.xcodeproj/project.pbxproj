@@ -1,0 +1,883 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0477668223A2B0B0004789BE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477668123A2B0B0004789BE /* AppDelegate.swift */; };
+		0477668423A2B0B0004789BE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477668323A2B0B0004789BE /* SceneDelegate.swift */; };
+		0477668923A2B0B0004789BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477668723A2B0B0004789BE /* Main.storyboard */; };
+		0477668B23A2B0B3004789BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0477668A23A2B0B3004789BE /* Assets.xcassets */; };
+		0477668E23A2B0B3004789BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0477668C23A2B0B3004789BE /* LaunchScreen.storyboard */; };
+		0477669923A2B0B3004789BE /* Book___GoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0477669823A2B0B3004789BE /* Book___GoTests.swift */; };
+		047766A423A2B0B3004789BE /* Book___GoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047766A323A2B0B3004789BE /* Book___GoUITests.swift */; };
+		81210F0F14E0F7637DEF185B /* Pods_Book___GoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9825FE47BF6934EED53C8AB0 /* Pods_Book___GoTests.framework */; };
+		B708AAA3366725305475FF8C /* Pods_Book___Go_Book___GoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE46D7DE1A19CAD0EA716CA /* Pods_Book___Go_Book___GoUITests.framework */; };
+		E058F7522D086CA248A7FDB0 /* Pods_Book___Go.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42CB52D5D0BAAABB7026403F /* Pods_Book___Go.framework */; };
+		F8316E6323C6461F00A118BF /* TOURSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8316E6223C6461F00A118BF /* TOURSViewController.swift */; };
+		F8316E6523C6473B00A118BF /* TourTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8316E6423C6473B00A118BF /* TourTableViewCell.swift */; };
+		F8C3444823C4EB9C0065680A /* TrangChuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3444723C4EB9C0065680A /* TrangChuViewController.swift */; };
+		F8C3444A23C4EBED0065680A /* DanhSachYeuThichViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3444923C4EBED0065680A /* DanhSachYeuThichViewController.swift */; };
+		F8C3444C23C4EC1A0065680A /* GioQuocTeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3444B23C4EC1A0065680A /* GioQuocTeViewController.swift */; };
+		F8C3444E23C4EC2D0065680A /* DoiTienTeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3444D23C4EC2D0065680A /* DoiTienTeViewController.swift */; };
+		F8C3445023C4EC460065680A /* LichSuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3444F23C4EC460065680A /* LichSuViewController.swift */; };
+		F8C3445223C4EC900065680A /* ThemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3445123C4EC900065680A /* ThemViewController.swift */; };
+		F8C3445423C4EC9E0065680A /* HopThuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3445323C4EC9E0065680A /* HopThuViewController.swift */; };
+		F8C3445623C4ECAD0065680A /* SapToiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3445523C4ECAD0065680A /* SapToiViewController.swift */; };
+		F8C3445823C4ED0F0065680A /* HoanTatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3445723C4ED0F0065680A /* HoanTatViewController.swift */; };
+		F8C3445A23C4ED1F0065680A /* DaHuyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3445923C4ED1F0065680A /* DaHuyViewController.swift */; };
+		F8C3446023C4FA500065680A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F8C3445F23C4FA500065680A /* GoogleService-Info.plist */; };
+		F8C3446223C503EA0065680A /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3446123C503EA0065680A /* WelcomeViewController.swift */; };
+		F8C3446423C517F90065680A /* DangNhapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3446323C517F90065680A /* DangNhapViewController.swift */; };
+		F8C3446623C5181E0065680A /* DangKiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3446523C5181E0065680A /* DangKiViewController.swift */; };
+		F8FABFAA23C7948F00C1F324 /* ThongTinTaiKhoanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FABFA923C7948E00C1F324 /* ThongTinTaiKhoanViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0477669523A2B0B3004789BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0477667623A2B0B0004789BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0477667D23A2B0B0004789BE;
+			remoteInfo = "Book & Go";
+		};
+		047766A023A2B0B3004789BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0477667623A2B0B0004789BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0477667D23A2B0B0004789BE;
+			remoteInfo = "Book & Go";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0477667E23A2B0B0004789BE /* Book & Go.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Book & Go.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477668123A2B0B0004789BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0477668323A2B0B0004789BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0477668823A2B0B0004789BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0477668A23A2B0B3004789BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0477668D23A2B0B3004789BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0477668F23A2B0B3004789BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477669423A2B0B3004789BE /* Book & GoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book & GoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0477669823A2B0B3004789BE /* Book___GoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book___GoTests.swift"; sourceTree = "<group>"; };
+		0477669A23A2B0B3004789BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0477669F23A2B0B3004789BE /* Book & GoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Book & GoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047766A323A2B0B3004789BE /* Book___GoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Book___GoUITests.swift"; sourceTree = "<group>"; };
+		047766A523A2B0B3004789BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10BE972390533979EC1A8C34 /* Pods-Book & GoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book & GoTests.debug.xcconfig"; path = "Target Support Files/Pods-Book & GoTests/Pods-Book & GoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3CE46D7DE1A19CAD0EA716CA /* Pods_Book___Go_Book___GoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Book___Go_Book___GoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CB52D5D0BAAABB7026403F /* Pods_Book___Go.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Book___Go.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		449D27F4B1AF02C45FB4C85C /* Pods-Book & Go-Book & GoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book & Go-Book & GoUITests.debug.xcconfig"; path = "Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47DCE8032F3F422D5B218653 /* Pods-Book & GoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book & GoTests.release.xcconfig"; path = "Target Support Files/Pods-Book & GoTests/Pods-Book & GoTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E8A14639C89212E8BE4327F /* Pods-Book & Go-Book & GoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book & Go-Book & GoUITests.release.xcconfig"; path = "Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9825FE47BF6934EED53C8AB0 /* Pods_Book___GoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Book___GoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDED53C0BB561F2531944450 /* Pods-Book & Go.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book & Go.debug.xcconfig"; path = "Target Support Files/Pods-Book & Go/Pods-Book & Go.debug.xcconfig"; sourceTree = "<group>"; };
+		EE7C049B5C970E6687220BDD /* Pods-Book & Go.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Book & Go.release.xcconfig"; path = "Target Support Files/Pods-Book & Go/Pods-Book & Go.release.xcconfig"; sourceTree = "<group>"; };
+		F8316E6223C6461F00A118BF /* TOURSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOURSViewController.swift; sourceTree = "<group>"; };
+		F8316E6423C6473B00A118BF /* TourTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourTableViewCell.swift; sourceTree = "<group>"; };
+		F8C3444723C4EB9C0065680A /* TrangChuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrangChuViewController.swift; sourceTree = "<group>"; };
+		F8C3444923C4EBED0065680A /* DanhSachYeuThichViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanhSachYeuThichViewController.swift; sourceTree = "<group>"; };
+		F8C3444B23C4EC1A0065680A /* GioQuocTeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GioQuocTeViewController.swift; sourceTree = "<group>"; };
+		F8C3444D23C4EC2D0065680A /* DoiTienTeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoiTienTeViewController.swift; sourceTree = "<group>"; };
+		F8C3444F23C4EC460065680A /* LichSuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LichSuViewController.swift; sourceTree = "<group>"; };
+		F8C3445123C4EC900065680A /* ThemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemViewController.swift; sourceTree = "<group>"; };
+		F8C3445323C4EC9E0065680A /* HopThuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HopThuViewController.swift; sourceTree = "<group>"; };
+		F8C3445523C4ECAD0065680A /* SapToiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SapToiViewController.swift; sourceTree = "<group>"; };
+		F8C3445723C4ED0F0065680A /* HoanTatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoanTatViewController.swift; sourceTree = "<group>"; };
+		F8C3445923C4ED1F0065680A /* DaHuyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaHuyViewController.swift; sourceTree = "<group>"; };
+		F8C3445F23C4FA500065680A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F8C3446123C503EA0065680A /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F8C3446323C517F90065680A /* DangNhapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangNhapViewController.swift; sourceTree = "<group>"; };
+		F8C3446523C5181E0065680A /* DangKiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DangKiViewController.swift; sourceTree = "<group>"; };
+		F8FABFA923C7948E00C1F324 /* ThongTinTaiKhoanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThongTinTaiKhoanViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0477667B23A2B0B0004789BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E058F7522D086CA248A7FDB0 /* Pods_Book___Go.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477669123A2B0B3004789BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81210F0F14E0F7637DEF185B /* Pods_Book___GoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477669C23A2B0B3004789BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B708AAA3366725305475FF8C /* Pods_Book___Go_Book___GoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0477667523A2B0B0004789BE = {
+			isa = PBXGroup;
+			children = (
+				0477668023A2B0B0004789BE /* Book & Go */,
+				0477669723A2B0B3004789BE /* Book & GoTests */,
+				047766A223A2B0B3004789BE /* Book & GoUITests */,
+				0477667F23A2B0B0004789BE /* Products */,
+				E647C86AA70D3078872A57F9 /* Pods */,
+				EFCAA12434CCF68D489EA39B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0477667F23A2B0B0004789BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0477667E23A2B0B0004789BE /* Book & Go.app */,
+				0477669423A2B0B3004789BE /* Book & GoTests.xctest */,
+				0477669F23A2B0B3004789BE /* Book & GoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0477668023A2B0B0004789BE /* Book & Go */ = {
+			isa = PBXGroup;
+			children = (
+				0477668123A2B0B0004789BE /* AppDelegate.swift */,
+				0477668323A2B0B0004789BE /* SceneDelegate.swift */,
+				0477668723A2B0B0004789BE /* Main.storyboard */,
+				0477668A23A2B0B3004789BE /* Assets.xcassets */,
+				0477668C23A2B0B3004789BE /* LaunchScreen.storyboard */,
+				0477668F23A2B0B3004789BE /* Info.plist */,
+				F8C3445F23C4FA500065680A /* GoogleService-Info.plist */,
+				F8C3445B23C4ED370065680A /* ViewController */,
+			);
+			path = "Book & Go";
+			sourceTree = "<group>";
+		};
+		0477669723A2B0B3004789BE /* Book & GoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0477669823A2B0B3004789BE /* Book___GoTests.swift */,
+				0477669A23A2B0B3004789BE /* Info.plist */,
+			);
+			path = "Book & GoTests";
+			sourceTree = "<group>";
+		};
+		047766A223A2B0B3004789BE /* Book & GoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047766A323A2B0B3004789BE /* Book___GoUITests.swift */,
+				047766A523A2B0B3004789BE /* Info.plist */,
+			);
+			path = "Book & GoUITests";
+			sourceTree = "<group>";
+		};
+		E647C86AA70D3078872A57F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDED53C0BB561F2531944450 /* Pods-Book & Go.debug.xcconfig */,
+				EE7C049B5C970E6687220BDD /* Pods-Book & Go.release.xcconfig */,
+				449D27F4B1AF02C45FB4C85C /* Pods-Book & Go-Book & GoUITests.debug.xcconfig */,
+				7E8A14639C89212E8BE4327F /* Pods-Book & Go-Book & GoUITests.release.xcconfig */,
+				10BE972390533979EC1A8C34 /* Pods-Book & GoTests.debug.xcconfig */,
+				47DCE8032F3F422D5B218653 /* Pods-Book & GoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EFCAA12434CCF68D489EA39B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42CB52D5D0BAAABB7026403F /* Pods_Book___Go.framework */,
+				3CE46D7DE1A19CAD0EA716CA /* Pods_Book___Go_Book___GoUITests.framework */,
+				9825FE47BF6934EED53C8AB0 /* Pods_Book___GoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F80BDF8023C518F900F47623 /* Wellcome */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3446123C503EA0065680A /* WelcomeViewController.swift */,
+				F8C3446323C517F90065680A /* DangNhapViewController.swift */,
+				F8C3446523C5181E0065680A /* DangKiViewController.swift */,
+			);
+			path = Wellcome;
+			sourceTree = "<group>";
+		};
+		F8C3445B23C4ED370065680A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F80BDF8023C518F900F47623 /* Wellcome */,
+				F8C3445E23C4ED9E0065680A /* Trang Chu */,
+				F8C3445C23C4ED560065680A /* Danh Sach Yeu Thich */,
+				F8C3445D23C4ED7D0065680A /* Don Tour */,
+				F8C3445323C4EC9E0065680A /* HopThuViewController.swift */,
+				F8C3445123C4EC900065680A /* ThemViewController.swift */,
+				F8FABFA923C7948E00C1F324 /* ThongTinTaiKhoanViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F8C3445C23C4ED560065680A /* Danh Sach Yeu Thich */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3444923C4EBED0065680A /* DanhSachYeuThichViewController.swift */,
+				F8C3444F23C4EC460065680A /* LichSuViewController.swift */,
+			);
+			path = "Danh Sach Yeu Thich";
+			sourceTree = "<group>";
+		};
+		F8C3445D23C4ED7D0065680A /* Don Tour */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3445523C4ECAD0065680A /* SapToiViewController.swift */,
+				F8C3445723C4ED0F0065680A /* HoanTatViewController.swift */,
+				F8C3445923C4ED1F0065680A /* DaHuyViewController.swift */,
+			);
+			path = "Don Tour";
+			sourceTree = "<group>";
+		};
+		F8C3445E23C4ED9E0065680A /* Trang Chu */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3444723C4EB9C0065680A /* TrangChuViewController.swift */,
+				F8C3444B23C4EC1A0065680A /* GioQuocTeViewController.swift */,
+				F8C3444D23C4EC2D0065680A /* DoiTienTeViewController.swift */,
+				F8316E6223C6461F00A118BF /* TOURSViewController.swift */,
+				F8316E6423C6473B00A118BF /* TourTableViewCell.swift */,
+			);
+			path = "Trang Chu";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0477667D23A2B0B0004789BE /* Book & Go */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047766A823A2B0B3004789BE /* Build configuration list for PBXNativeTarget "Book & Go" */;
+			buildPhases = (
+				2E5CC3990FB144E2067095EB /* [CP] Check Pods Manifest.lock */,
+				0477667A23A2B0B0004789BE /* Sources */,
+				0477667B23A2B0B0004789BE /* Frameworks */,
+				0477667C23A2B0B0004789BE /* Resources */,
+				D4B01D80A141BF482283D5FD /* [CP] Embed Pods Frameworks */,
+				2336BF6BCFF65489110F6970 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Book & Go";
+			productName = "Book & Go";
+			productReference = 0477667E23A2B0B0004789BE /* Book & Go.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0477669323A2B0B3004789BE /* Book & GoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047766AB23A2B0B3004789BE /* Build configuration list for PBXNativeTarget "Book & GoTests" */;
+			buildPhases = (
+				A9AFA1EC77DCD97FB9FECA8E /* [CP] Check Pods Manifest.lock */,
+				0477669023A2B0B3004789BE /* Sources */,
+				0477669123A2B0B3004789BE /* Frameworks */,
+				0477669223A2B0B3004789BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0477669623A2B0B3004789BE /* PBXTargetDependency */,
+			);
+			name = "Book & GoTests";
+			productName = "Book & GoTests";
+			productReference = 0477669423A2B0B3004789BE /* Book & GoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0477669E23A2B0B3004789BE /* Book & GoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047766AE23A2B0B3004789BE /* Build configuration list for PBXNativeTarget "Book & GoUITests" */;
+			buildPhases = (
+				1402CDA10A006597FE269659 /* [CP] Check Pods Manifest.lock */,
+				0477669B23A2B0B3004789BE /* Sources */,
+				0477669C23A2B0B3004789BE /* Frameworks */,
+				0477669D23A2B0B3004789BE /* Resources */,
+				FA3AC48E0108C93A985D32C8 /* [CP] Embed Pods Frameworks */,
+				A4733E6F14F4745C8F531C6D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047766A123A2B0B3004789BE /* PBXTargetDependency */,
+			);
+			name = "Book & GoUITests";
+			productName = "Book & GoUITests";
+			productReference = 0477669F23A2B0B3004789BE /* Book & GoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0477667623A2B0B0004789BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					0477667D23A2B0B0004789BE = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					0477669323A2B0B3004789BE = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 0477667D23A2B0B0004789BE;
+					};
+					0477669E23A2B0B3004789BE = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 0477667D23A2B0B0004789BE;
+					};
+				};
+			};
+			buildConfigurationList = 0477667923A2B0B0004789BE /* Build configuration list for PBXProject "Book & Go" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0477667523A2B0B0004789BE;
+			productRefGroup = 0477667F23A2B0B0004789BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0477667D23A2B0B0004789BE /* Book & Go */,
+				0477669323A2B0B3004789BE /* Book & GoTests */,
+				0477669E23A2B0B3004789BE /* Book & GoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0477667C23A2B0B0004789BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477668E23A2B0B3004789BE /* LaunchScreen.storyboard in Resources */,
+				F8C3446023C4FA500065680A /* GoogleService-Info.plist in Resources */,
+				0477668B23A2B0B3004789BE /* Assets.xcassets in Resources */,
+				0477668923A2B0B0004789BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477669223A2B0B3004789BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477669D23A2B0B3004789BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1402CDA10A006597FE269659 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Book & Go-Book & GoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2336BF6BCFF65489110F6970 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go/Pods-Book & Go-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go/Pods-Book & Go-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Book & Go/Pods-Book & Go-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E5CC3990FB144E2067095EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Book & Go-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4733E6F14F4745C8F531C6D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9AFA1EC77DCD97FB9FECA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Book & GoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4B01D80A141BF482283D5FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go/Pods-Book & Go-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go/Pods-Book & Go-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Book & Go/Pods-Book & Go-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA3AC48E0108C93A985D32C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Book & Go-Book & GoUITests/Pods-Book & Go-Book & GoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0477667A23A2B0B0004789BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8316E6323C6461F00A118BF /* TOURSViewController.swift in Sources */,
+				F8C3444A23C4EBED0065680A /* DanhSachYeuThichViewController.swift in Sources */,
+				F8C3445A23C4ED1F0065680A /* DaHuyViewController.swift in Sources */,
+				F8C3446623C5181E0065680A /* DangKiViewController.swift in Sources */,
+				F8C3445423C4EC9E0065680A /* HopThuViewController.swift in Sources */,
+				0477668223A2B0B0004789BE /* AppDelegate.swift in Sources */,
+				F8C3445623C4ECAD0065680A /* SapToiViewController.swift in Sources */,
+				F8C3444C23C4EC1A0065680A /* GioQuocTeViewController.swift in Sources */,
+				F8C3446223C503EA0065680A /* WelcomeViewController.swift in Sources */,
+				F8C3446423C517F90065680A /* DangNhapViewController.swift in Sources */,
+				F8C3445023C4EC460065680A /* LichSuViewController.swift in Sources */,
+				F8C3444823C4EB9C0065680A /* TrangChuViewController.swift in Sources */,
+				F8FABFAA23C7948F00C1F324 /* ThongTinTaiKhoanViewController.swift in Sources */,
+				F8C3445823C4ED0F0065680A /* HoanTatViewController.swift in Sources */,
+				F8316E6523C6473B00A118BF /* TourTableViewCell.swift in Sources */,
+				F8C3445223C4EC900065680A /* ThemViewController.swift in Sources */,
+				0477668423A2B0B0004789BE /* SceneDelegate.swift in Sources */,
+				F8C3444E23C4EC2D0065680A /* DoiTienTeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477669023A2B0B3004789BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0477669923A2B0B3004789BE /* Book___GoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0477669B23A2B0B3004789BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047766A423A2B0B3004789BE /* Book___GoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0477669623A2B0B3004789BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0477667D23A2B0B0004789BE /* Book & Go */;
+			targetProxy = 0477669523A2B0B3004789BE /* PBXContainerItemProxy */;
+		};
+		047766A123A2B0B3004789BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0477667D23A2B0B0004789BE /* Book & Go */;
+			targetProxy = 047766A023A2B0B3004789BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0477668723A2B0B0004789BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477668823A2B0B0004789BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0477668C23A2B0B3004789BE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0477668D23A2B0B3004789BE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047766A623A2B0B3004789BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047766A723A2B0B3004789BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047766A923A2B0B3004789BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDED53C0BB561F2531944450 /* Pods-Book & Go.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Book & Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "linhlph.Book---Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047766AA23A2B0B3004789BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE7C049B5C970E6687220BDD /* Pods-Book & Go.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Book & Go/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "linhlph.Book---Go";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		047766AC23A2B0B3004789BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10BE972390533979EC1A8C34 /* Pods-Book & GoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Book & GoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "linhlph.Book---GoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book & Go.app/Book & Go";
+			};
+			name = Debug;
+		};
+		047766AD23A2B0B3004789BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47DCE8032F3F422D5B218653 /* Pods-Book & GoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Book & GoTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "linhlph.Book---GoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Book & Go.app/Book & Go";
+			};
+			name = Release;
+		};
+		047766AF23A2B0B3004789BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 449D27F4B1AF02C45FB4C85C /* Pods-Book & Go-Book & GoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Book & GoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "linhlph.Book---GoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Book & Go";
+			};
+			name = Debug;
+		};
+		047766B023A2B0B3004789BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8A14639C89212E8BE4327F /* Pods-Book & Go-Book & GoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Book & GoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "linhlph.Book---GoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Book & Go";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0477667923A2B0B0004789BE /* Build configuration list for PBXProject "Book & Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047766A623A2B0B3004789BE /* Debug */,
+				047766A723A2B0B3004789BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047766A823A2B0B3004789BE /* Build configuration list for PBXNativeTarget "Book & Go" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047766A923A2B0B3004789BE /* Debug */,
+				047766AA23A2B0B3004789BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047766AB23A2B0B3004789BE /* Build configuration list for PBXNativeTarget "Book & GoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047766AC23A2B0B3004789BE /* Debug */,
+				047766AD23A2B0B3004789BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047766AE23A2B0B3004789BE /* Build configuration list for PBXNativeTarget "Book & GoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047766AF23A2B0B3004789BE /* Debug */,
+				047766B023A2B0B3004789BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0477667623A2B0B0004789BE /* Project object */;
+}

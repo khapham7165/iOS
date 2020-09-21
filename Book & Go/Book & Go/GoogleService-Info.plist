@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>123221786609-vabvp9npfamr9t13rhhbh9d8vb7amo1n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.123221786609-vabvp9npfamr9t13rhhbh9d8vb7amo1n</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBHU5ZYfyVXQu-ekTkznqHYcu_qf5njeNU</string>
+	<key>GCM_SENDER_ID</key>
+	<string>123221786609</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>linhlph.Book---Go</string>
+	<key>PROJECT_ID</key>
+	<string>doanios</string>
+	<key>STORAGE_BUCKET</key>
+	<string>doanios.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:123221786609:ios:867682745931d94f694e50</string>
+	<key>DATABASE_URL</key>
+	<string>https://doanios.firebaseio.com</string>
+</dict>
+</plist>

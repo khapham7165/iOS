@@ -1,0 +1,6 @@
+framework module Pods_Book___Go {
+  umbrella header "Pods-Book & Go-umbrella.h"
+
+  export *
+  module * { export * }
+}

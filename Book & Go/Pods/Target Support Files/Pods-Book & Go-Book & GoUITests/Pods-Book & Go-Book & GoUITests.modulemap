@@ -1,0 +1,6 @@
+framework module Pods_Book___Go_Book___GoUITests {
+  umbrella header "Pods-Book & Go-Book & GoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
